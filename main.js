@@ -92,6 +92,43 @@ function showAlert(msg){
                 ]
             }
         ];
+const quizResults = {
+            wood: {
+                title: "Bạn là HÀNH MỘC 🌿",
+                icon: "🌿",
+                color: "text-theme-primary",
+                description: "Bạn yêu thiên nhiên, sáng tạo và luôn phát triển. Giống như Mộc Sơn, bạn là người gắn kết, mang lại sức sống và là cái nôi của những ý tưởng mới.",
+                suggestion: "Trải nghiệm 'Tour Làng nghề Non Nước' và tự tay làm vòng đá chắc chắn sẽ hợp với bạn!"
+            },
+            fire: {
+                title: "Bạn là HÀNH HỎA 🔥",
+                icon: "🔥",
+                color: "text-theme-fire",
+                description: "Bạn năng động, nhiệt huyết và luôn là trung tâm của mọi cuộc vui. Bạn tỏa sáng rực rỡ và truyền cảm hứng cho người khác, như vẻ đẹp của Hỏa Sơn lúc hoàng hôn.",
+                suggestion: "Bạn sinh ra để 'sống ảo'! 'Tour Chụp ảnh' tại Hỏa Sơn là dành cho bạn!"
+            },
+            earth: {
+                title: "Bạn là HÀNH THỔ 🌾",
+                icon: "🌾",
+                color: "text-theme-earth",
+                description: "Bạn ấm áp, đáng tin cậy và là chỗ dựa vững chắc cho mọi người. Bạn kiên nhẫn, nuôi dưỡng và bao dung như ngọn Thổ Sơn hiền hòa.",
+                suggestion: "Bạn hợp với 'Tour Khám phá Mạo hiểm' để khám phá những hang động ẩn sâu trong lòng đất mẹ."
+            },
+            metal: {
+                title: "Bạn là HÀNH KIM ✨",
+                icon: "✨",
+                color: "text-theme-accent",
+                description: "Bạn sắc sảo, tinh tế, sáng tạo và có tổ chức. Bạn tìm kiếm sự tĩnh tại và vẻ đẹp thuần khiết, giống như không gian thanh tịnh của Kim Sơn.",
+                suggestion: "Một 'Tour Thiền & Yoga' tại Kim Sơn sẽ giúp bạn nạp lại năng lượng sáng tạo."
+            },
+            water: {
+                title: "Bạn là HÀNH THỦY 🌊",
+                icon: "🌊",
+                color: "text-theme-secondary",
+                description: "Bạn mềm mại, sâu sắc, linh hoạt và giàu lòng trắc ẩn. Bạn có khả năng thích nghi cao và mang một chiều sâu tâm hồn, giống như Thủy Sơn linh thiêng.",
+                suggestion: "'Tour Tâm linh' ghé thăm chùa Linh Ứng và động Huyền Không sẽ chạm đến tâm hồn bạn."
+            }
+        };
 const quizStartEl = document.getElementById('quiz-start');
 const quizQuestionEl = document.getElementById('quiz-question-area');
 const quizResultEl = document.getElementById('quiz-result-area');
