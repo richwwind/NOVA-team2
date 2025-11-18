@@ -1,3 +1,11 @@
+// set signup link
+const btnSignup = document.getElementById('btn-signup');
+btnSignup.addEventListener('click', function(){
+    window.location.href = 'https://danangopentour.vn/tour-ngu-hanh-son-hoi-an-1-ngay.html'; // Thay đổi thành link Google Forms thực tế
+});
+
+
+
 // Mobile toggle
 document.getElementById('mobile-toggle')?.addEventListener('click', function(){
     const m = document.getElementById('mobile-menu');
